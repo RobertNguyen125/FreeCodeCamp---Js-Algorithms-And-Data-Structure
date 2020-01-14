@@ -2,6 +2,7 @@
 
 function phoneticLookup(val){
   var result = ''
+  // var result = lookup[val]
   var lookup = {
       'alpha': 'Adams',
       'bravo': 'Boston',
