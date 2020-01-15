@@ -56,10 +56,7 @@ function updateRecords(id, prop, value) {
     delete collection[id][prop];
   }
   return collection;
-}
-
-
-
+};
 
 updateRecords(5439, 'artist', 'ABBA');
 updateRecords(5439, "tracks", "Take a Chance on Me");
